@@ -1,0 +1,16 @@
+.links {
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link2 {
+  margin-left: 9px;
+}
+.about {
+  color: rgb(31, 30, 30);
+  text-decoration: none;
+}
+.about:hover {
+  text-decoration: underline;
+}

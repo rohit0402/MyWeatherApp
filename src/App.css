@@ -1,0 +1,20 @@
+/* App.css */
+* {
+}
+/* Apply flexbox to the body to center its children vertically */
+body {
+  display: flex;
+  min-height: 100vh; /* Ensure the body covers the entire viewport height */
+  margin: 0; /* Remove default margin */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+}
+
+/* Add styles for the content */
+.content {
+  text-align: center; /* Center the content horizontally */
+}
+.weather {
+  display: flex;
+  justify-content: center;
+}
